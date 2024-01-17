@@ -50,5 +50,5 @@ Acesse os códigos de cada parte do curso por aqui:
     - [Avalie a Formação de JavaScript Developer](/4%20-%20Curriculo%20Online%20com%20HTML%20CSS%20e%20JS%20%20-%20Da%20Prototipação%20Ao%20Deploy/4.4%20-%20Avalie%20a%20Formação%20de%20JS%20Developer/)
 
 ## :star2: Certificados
-Acesse esse e outros certificados [aqui](/Certificados)
+Acesse esse e outros certificados [aqui](/Certificados)<br>
 <img src="/img/Formação JavaScript.png" style="width: 75vh; border: 0.25vh solid black;"></img>
