@@ -44,10 +44,10 @@ Acesse os códigos de cada parte do curso por aqui:
     - [Materiais Complementares - Dominando Conceitos Avançados em JavaScript](/3%20-%20Dominando%20Conceitos%20Avançados%20Em%20JavaScript/3.5%20-%20Materiais%20Complementares%20-%20Dominando%20Conceitos%20Avançados%20em%20JavaScript/)
     <br>
 * [Curriculo Online com HTML, CSS e JavaScript: Da Prototipação ao Deploy](/4%20-%20Curriculo%20Online%20com%20HTML%20CSS%20e%20JS%20%20-%20Da%20Prototipação%20Ao%20Deploy/)
-    - [Criando e Estilizando uma Página de Portifólio Profissional com CSS e JavaScript](/4%20-%20Curriculo%20Online%20com%20HTML%20CSS%20e%20JS%20%20-%20Da%20Prototipação%20Ao%20Deploy/4.1%20-%20Criando%20e%20Estilizando%20uma%20Página%20de%20Portifólio%20Profissional%20com%20CSS%20e%20JavaScript/)
+    - [Criando e Estilizando uma Página de Portifólio Profissional com CSS e JavaScript](4%20-%20Curriculo%20Online%20com%20HTML%20CSS%20e%20JS%20%20-%20Da%20Prototipação%20Ao%20Deploy/4.1%20-%20Criando%20e%20Estilizando%20uma%20Página%20de%20Portifólio%20Profissional%20com%20CSS%20e%20JS)
     - [Publicando Seu Portifolio Profissional no GitHub Pages](/4%20-%20Curriculo%20Online%20com%20HTML%20CSS%20e%20JS%20%20-%20Da%20Prototipação%20Ao%20Deploy/4.2%20-%20Publicando%20Seu%20Portifolio%20Profissional%20no%20GitHub%20Pages/)
     - [Materiais Complementares - Curriculo Online com HTML CSS e JavaScript: Da Prototipação ao Deploy](/4%20-%20Curriculo%20Online%20com%20HTML%20CSS%20e%20JS%20%20-%20Da%20Prototipação%20Ao%20Deploy/4.3%20-%20Materiais%20Complementares%20-%20Curriculo%20Online%20com%20HTML%20CSS%20e%20JS%20-%20Da%20Prototipação%20ao%20Deploy/)
-    - [Avalie a Formação de JavaScript Developer](/4%20-%20Curriculo%20Online%20com%20HTML%20CSS%20e%20JS%20%20-%20Da%20Prototipação%20Ao%20Deploy/4.4%20-%20Avalie%20a%20Formação%20de%20JavaScript%20Developer/)
+    - [Avalie a Formação de JavaScript Developer](/4%20-%20Curriculo%20Online%20com%20HTML%20CSS%20e%20JS%20%20-%20Da%20Prototipação%20Ao%20Deploy/4.4%20-%20Avalie%20a%20Formação%20de%20JS%20Developer/)
 
 ## :star2: Certificados
 Acesse esse e outros certificados [aqui](/Certificados)
