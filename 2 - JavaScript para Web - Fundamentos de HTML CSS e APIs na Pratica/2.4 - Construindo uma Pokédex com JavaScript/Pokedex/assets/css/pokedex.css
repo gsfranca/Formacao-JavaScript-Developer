@@ -1,0 +1,185 @@
+/*Lista de pokemons*/
+    .pokemons
+    {
+        /*Size*/
+            padding: 0;
+            margin: 0;
+
+        /*Position*/
+            display: grid;
+            grid-template-columns: 1fr;
+
+        /*List*/
+            list-style: none;
+    }
+
+/*Quadrados*/
+    /*Default*/
+        .pokemon
+        {
+            /*Size*/
+                margin: 0.5rem;
+                padding: 1rem;
+                border-radius: 1rem;
+
+            /*Position*/
+                display: flex;
+                flex-direction: column;
+        }
+    /*Colors*/
+        .normal     {background-color: #A6A877;}
+        .grass      {background-color: #77C850;}
+        .fire       {background-color: #EE7F30;}
+        .water      {background-color: #678FEE;}
+        .electric   {background-color: #F7CF2E;}
+        .ice        {background-color: #98D5D7;}
+        .ground     {background-color: #DFBF69;}
+        .flying     {background-color: #A98FF0;}
+        .poison     {background-color: #A040A0;}
+        .fighting   {background-color: #BF3029;}    
+        .psychic    {background-color: #F65687;}
+        .dark       {background-color: #725847;}
+        .rock       {background-color: #B8A137;}
+        .bug        {background-color: #A8B720;}
+        .ghost      {background-color: #6E5896;}
+        .steel      {background-color: #B9B7CF;}
+        .dragon     {background-color: #6F38F6;}
+        .fairy      {background-color: #F9AEC7;}
+
+/*Fim dos quadradis*/
+
+
+/*Número do Pokemon*/
+    .pokemon .number
+    {
+        /*Text*/
+            color: black;
+            opacity: .3;
+            text-align: right;
+            font-size: .625rem;
+    }
+
+/*Nome do Pokemon*/
+    .pokemon .name
+    {
+        /*Text*/
+            color: white;
+            text-transform: capitalize;
+        
+        /*Size*/
+            margin-bottom: 0;
+    }
+
+/*Div dos tipos e imagem*/
+    .pokemon .detail
+    {
+        /*Position*/
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+    }
+
+/*Tipos do Pokemon (ol)*/
+    .pokemon .detail .types
+    {
+        /*Size*/
+            padding: 0;
+            margin: 0;
+
+        /*List*/
+            list-style: none;
+    }
+
+
+/*Tipo de Pokemon (li)*/
+    .pokemon .detail .types .type
+    {  
+        /*Text*/
+            color: white;
+            font-size: .625rem;
+            text-align: center;
+
+        /*Size*/
+            padding: .25rem .5rem;
+            margin: .25rem 0;
+            border-radius: 1rem;
+
+        /*Filter*/
+            filter: brightness(1.1);
+
+
+    }
+
+/*Imagem do Pokemom*/
+    .pokemons .detail img
+    {
+        /*Size*/
+            max-width: 100%;
+            height: 70px;
+
+        /*Position*/
+            align-self: flex-end;
+    }
+
+/*Div Paginação*/
+    .pagination
+    {
+        /*Position*/
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+        /*Size*/
+            width: 100%;
+            padding: 1rem;
+    }
+
+/*Botão Load More*/
+    .pagination button
+    {
+        /*Background*/
+            background-color: #6C79DB;
+
+        /*Text*/
+            color: white;
+            
+        /*Size*/
+            padding: 1rem 2rem;
+
+        /*Border*/
+            border: none;
+            border-radius: 2rem;
+    }
+/*Medias*/
+
+    /*Tela Pequena*/
+        @media screen and (min-width: 380px)
+        {
+            .pokemons
+            {
+                /*Position*/
+                    grid-template-columns: 1fr 1fr;
+            }
+        }
+
+    /*Tela Media*/
+        @media screen and (min-width: 576px)
+        {
+            .pokemons
+            {
+                /*Position*/
+                    grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+
+    /*Tela Grande*/
+        @media screen and (min-width: 992px)
+        {
+            .pokemons
+            {
+                /*Position*/
+                    grid-template-columns: 1fr 1fr 1fr 1fr;
+            }
+        }

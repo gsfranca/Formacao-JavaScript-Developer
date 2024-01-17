@@ -1,0 +1,51 @@
+/*Importação Roboto Thin, Light, Medium e Bold*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+
+:root
+{
+    /*Font*/
+        --main-text: 'Roboto', sans-serif;
+}
+
+*
+{
+    /*Text*/
+        font-family: var(--main-text);
+
+    /*Box-sizing*/
+        box-sizing: border-box;
+}
+body
+{
+    /*Background*/
+        background-color: #F6F8FC;
+}
+
+/*Section*/
+    .content
+    {
+        /*Size*/
+            padding: 1rem;
+            height: 100vh;
+
+        /*Background*/
+            background-color: white;
+    }
+
+
+
+/*Medias*/
+    /*Tela grande*/
+        @media screen and (min-width: 992px)
+        {
+            .content
+            {
+                /*Size*/
+                    max-width: 992px;
+                    margin: 0 auto;
+                    height: auto;
+                    margin: 1rem auto;
+                    border-radius: 1rem;
+            }
+        }
+

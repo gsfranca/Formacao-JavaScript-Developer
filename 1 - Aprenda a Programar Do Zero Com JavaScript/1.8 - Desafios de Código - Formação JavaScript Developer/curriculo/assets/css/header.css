@@ -1,0 +1,164 @@
+/*Header (Class da Tag)*/
+    .header
+    {
+        /*Position*/
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+    }
+    .header:after
+    {
+        /*Content*/
+            content: '';
+
+        /*Size*/
+            width: 2rem;
+            height: 1rem;
+
+        /*Background*/
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-image: url(/assets/img/icons/header.svg);
+
+        /*Position*/
+            display: inline-block;
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+    }
+
+
+/*Foto de Perfil*/
+    .header .photo
+    {
+        /*Size*/
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+    }
+
+/*Titulo "Olá eu sou...*/    
+    .header .title
+    {
+        /*Text*/
+            text-align: center;
+            font-family: 'Neue Machina', sans-serif;
+    }
+
+/*Informações (Cargo, Localização, Telefone e Email)*/
+    .information
+    {
+        /*Position*/
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        
+        /*Size*/
+            width: 100%;
+    }
+
+/*Topicos Informação (Texto)*/
+    .information p
+    {
+        /*Text*/
+            font-size: 1.125rem;
+
+        /*Size*/
+            margin: .5rem;
+
+        /*Position*/
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+    }
+
+/*Links topicos*/
+    .information a
+    {
+        color: white;
+        text-decoration: none;
+    }
+    .information a:hover
+    {
+        text-decoration: underline;
+    }
+
+
+/*Topicos Informação (Icons)*/
+    .information p::before
+    {
+        /*Content*/
+            content: '';
+
+        /*Size*/
+            width: 1rem;
+            height: 1rem;
+            margin-right: .5rem;
+
+        /*Background*/
+            background-repeat: no-repeat;
+            background-size: contain;
+
+        /*Position*/
+            display: inline-block;
+    }
+
+/*Imagem icons*/
+
+    /*Job*/
+        .information .job::before {background-image: url(/assets/img/icons/job.svg);}
+    
+    /*Location*/
+        .information .location::before {background-image: url(/assets/img/icons/location.svg);}
+    
+    /*Phone*/
+        .information .phone::before {background-image: url(/assets/img/icons/phone.svg);}
+
+    /*Email*/
+        .information .email::before {background-image: url(/assets/img/icons/email.svg);}
+
+/*Fim da Imagem icons*/
+
+/*Medias*/
+    @media only screen and (min-width: 768px)
+    {
+        /*Header (Class da Tag)*/
+            .header
+            {
+                /*Position*/
+                    display: grid;
+                    grid-template-areas: 
+                    "photo title"
+                    "photo information";
+            }
+            
+        /*Foto de Perfil*/
+            .header .photo
+            {
+                /*Position*/
+                    grid-area: photo;
+                    margin: 0 auto;
+            }
+
+        /*Titulo "Olá eu sou...*/    
+            .header .title
+            {
+                /*Position*/
+                    grid-area: title;
+
+                /*Text*/
+                    text-align: start;
+
+                /*Size*/
+                    width: 210px;
+            }
+        
+        /*Informações (Cargo, Localização, Telefone e Email)*/
+            .header .information
+            {
+                /*Position*/
+                    grid-area: information;
+            }
+
+    }

@@ -1,0 +1,57 @@
+{
+  "name": "Giovana Santos de França",
+  "photo": "assets/img/my-photo.jpg",
+  "job": "Front-end Developer",
+  "location": "São Paulo - SP",
+  "phone": "(11) 94955-3289",
+  "email": "GiovanaS.Franca01@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "HTML5",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/html.png"
+      },
+      {
+        "name": "CSS3",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/css.png"
+      },
+      {
+        "name": "JavaScript",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/js.png"
+      },
+      {
+        "name": "PHP",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/php.png"
+      }
+    ],
+    "softSkills": [
+      "Liderança",
+      "Trabalho em equipe",
+      "Flexibilidade",
+      "Organização"
+    ]
+  },
+  "languages": [
+    "Português BR",
+    "Inglês (Avançado)"
+  ],
+  "portfolio": [
+    {
+      "name": "PrepTEC - Site para Auxiliar Estudantes Que Querem Ingressar Na ETEC",
+      "url": "https://github.com/gsfranca/PrepTEC",
+      "github": true
+    },
+    {
+      "name": "Vizenso - Site para registrar reservas de uma cantina italiana",
+      "url": "https://github.com/gsfranca/Vizenso",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Name",
+      "period": "Period",
+      "description": "Description"
+    }
+  ]
+}

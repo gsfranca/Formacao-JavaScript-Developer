@@ -1,0 +1,91 @@
+/*Fonte Open Sans*/
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/*Fonte Neue Machina*/
+    @font-face 
+    {
+        font-family: 'Neue Machina';
+        src: url('/assets/fonts/neue-machina-regular.otf');
+    }
+/*Aplicar em tudo*/
+    *
+    {
+        /*Text*/
+            font-family: 'Open Sans', sans-serif;
+        
+        /*Box Sizing*/
+            box-sizing: border-box;
+    }
+/*Body (TAG)*/
+    body
+    {
+        /*Background*/
+            background-color: black;
+
+        /*Text*/
+            color: white;
+    }
+/*Div Principal*/
+    .main
+    {
+        /*Size*/
+            margin: 1rem;
+            padding: 1rem;
+            border: 1px solid #fff;
+            border-radius: 1rem;
+    }
+
+/*Degradê Background (Parte de Cima)*/
+    .main::before, .main::after
+    {
+        /*Content*/
+            content: '';
+
+        /*Background*/
+            background-image: url(/assets/img/background.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+
+        /*Position*/
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+
+        /*Size*/
+            width: 140vw;
+            height: 100vh;
+    }
+
+/*Degradê Background (Parte de Baixo)*/
+    .main::after
+    {
+        /*Position*/
+            position: fixed;
+            top: auto;
+            left: auto;
+            bottom: 0;
+            right: 0;
+            transform: rotate(180deg);
+    }
+
+/*Medias*/
+    @media only screen and (min-width: 768px)
+    {
+        /*Div Principal*/
+            .main
+            {
+                /*Size*/
+                    max-width: 1024px;
+                    margin: 1rem auto;
+            }
+
+        /*Degradê Background (Parte de Cima)*/
+        /*Degradê Background (Parte de Baixo)*/
+            .main::before, .main::after
+            {
+                /*Size*/
+                    width: 70vw;
+            }
+
+    }

@@ -1,0 +1,52 @@
+/*Lista de Linguas (ul)*/
+    .languages
+    {
+        /*Position*/    
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            flex-wrap: wrap;
+
+        /*Size*/
+            margin: 0;
+            padding: 0;
+
+        /*List*/
+            list-style: none;
+    }
+
+/*Itens da Lista de Linguas (li)*/
+    .languages li
+    {
+        /*Size*/
+            padding-right: 1rem;
+
+        /*Position*/
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+        /*Text*/
+            font-weight: 700;
+            font-size: 1rem;
+    }
+
+/*Check da Lista de Linguas (Icone)*/
+    .languages li:before
+    {
+        /*Content*/
+            content: '';
+
+        /*Size*/
+            width: 1rem;
+            height: 1rem;
+
+        /*Background*/
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-image: url(/assets/img/icons/check.svg);
+
+        /*Position*/
+            display: inline-block;
+            margin-right: .5rem;
+    }
